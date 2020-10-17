@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', startGame)
 var board = {
 	cells: []
 }
-createBoard(4)
+createBoard(6)
 
 function createBoard(size) {
 	for (rowNum = 0; rowNum < size; rowNum++) {
